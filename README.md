@@ -14,3 +14,5 @@ python3 -m unittest discover -s tests -v
 ## Continuous integration
 The Jenkins job Student-CI-Project retrieves this repository and runs
 the application and automated tests. A failing test must fail the build.
+
+Push changes to GitHub to trigger the Jenkins tests.
